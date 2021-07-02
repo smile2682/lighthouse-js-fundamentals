@@ -4,3 +4,9 @@ const sayHello  = function (name) {
 sayHello("Caliban");
 sayHello("Miranda");
 sayHello("Ferdinand");
+
+const returnSayHello  = function (name) {
+  return "Hello, " + name;
+}
+
+console.log(returnSayHello('John'));
